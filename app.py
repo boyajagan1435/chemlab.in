@@ -1,5 +1,6 @@
+import streamlit as st
+
 st.set_page_config(page_title="Virtual Chemistry Lab", page_icon="🧪") 
-^^
 st.title("🧪 Virtual Chemistry Lab")
 
 tab1, tab2, tab3, tab4 = st.tabs(
